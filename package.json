@@ -1,0 +1,17 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js -f html:calc.html @cucumber/pretty-formatter features"
+  },
+  "author": "Banja David Lotigo",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.3.0",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.2",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0"
+  }
+}
